@@ -25,7 +25,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 100vh;
+    max-height: 100vh;
    
 }
 
@@ -67,7 +67,9 @@ main img{
 }
 
 .attribution{
-    padding: 25px;
+    text-align: center;
+   align-items: center;
+   justify-content: center;
     font-weight: bold;
     
 }
