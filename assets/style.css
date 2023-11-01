@@ -18,7 +18,7 @@ body{
        
 }
 
-section{
+.container{
     margin: 9px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ section{
    
 }
 
-section main{
+.container section{
     width: 330px;
     background-color: white;
     border-radius: 9px;
@@ -41,32 +41,32 @@ section main{
 
 }
 
-section main h1{
-    margin-top: 1rem;
-    padding: 0.9rem;
+.container section h1{
+    margin-top: 0.5rem;
+    padding: 0.4rem;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     
     
 }
 
 
-section main p{
-    margin: 1.2rem;
+.container section p {
+    margin-bottom: 1rem;
     padding: 0.785rem;
     font-weight: 400;
     font-size: 1rem;
-    color: Lightgray 
+    color: rgb(92, 91, 91) 
 }
 
-main img{
+.componets img {
     margin: 20px;
     width: 285px;   
     border-radius: 9px;   
 
 }
 
-.attribution{
+.attribution {
     text-align: center;
    align-items: center;
    justify-content: center;
